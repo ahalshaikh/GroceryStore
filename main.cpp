@@ -20,12 +20,12 @@ do
   cin>>input;
   if(( input == 'a') || ( input == 'A'))
   {
-  cout<<"\nWhat is the item?";
+  cout<<"What is the item?\n";
   cin>>itemName;
   numItems ++;
   if(numItems >= 6)
 {
-cout<<"\nYou'll need a bigger list!";
+cout<<"\nYou'll need a bigger list!\n";
 }
   }
 }
