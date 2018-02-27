@@ -24,7 +24,7 @@ int main()
 
                 if(( input == 'a') || ( input == 'A'))
                 {
-                        cout<<"What is the item?\n";
+                        cout<<"What is the item?";
                         cin>>itemName;
                       
 
