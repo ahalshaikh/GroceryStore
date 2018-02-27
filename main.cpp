@@ -24,11 +24,11 @@ int main()
 
                 if(( input == 'a') || ( input == 'A'))
                 {
-                        cout<<"What is the item?";
+                        cout<<"What is the item?\n";
                         cin>>itemName;
                       
 
-                        if(numItems >= 6)
+                        if(numItems >= LIST_SIZE)
                         {
                                 cout<<"You'll need a bigger list!\n";
 
