@@ -28,19 +28,21 @@ int main()
                 }
 
         }while(( input != 'q') && ( input != 'Q'));
-         
-         cout<<"==ITEMS TO BUY=="<<endl;
 
-        for(int index = 0; index < numItems.size(); index++)
+        if(numItems.size() > 0)
         {
+                cout<<"==ITEMS TO BUY=="<<endl;
 
-        cout<<(index + 1);
-                cout<<" "<<numItems[index]<<endl;
+                for(int index = 0; index < numItems.size(); index++)
+                {
+
+                        cout<<(index + 1);
+                        cout<<" "<<numItems[index]<<endl;
+                }
         }
-
-        if(numItems.size() == 0)
+        else
         {
-        cout<<"No items to buy."<<endl;
+                cout<<"No items to buy."<<endl;
         }
         return 0;
 }
